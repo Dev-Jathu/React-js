@@ -1,0 +1,36 @@
+
+button {
+    font-size: 22px;
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+}
+.button1{
+    width: 250px;
+    margin-left: 165px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: whitesmoke;
+
+}
+.signup{
+    font-size: 25px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 10px 0px 40px rgb(255, 255, 255);
+    margin: 20px;
+    background-color: #1b8a41;
+    letter-spacing: 2px;
+
+   
+}
+.buttoncontainer{
+    display: flex;
+   /* justify-content: space-around; */
+   margin-left: -20px;
+   margin-top: 150px;
+
+
+}

@@ -1,0 +1,33 @@
+
+label{
+    height: 20px;
+    /* background-color: aquamarine; */
+    font-size: 28px;
+
+}
+
+input{
+
+    width: 400px;
+    height: 50px;
+    /* border-top: none; */
+    margin-left: 100px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.age{
+    margin-left: 192px;
+}
+.email{
+    margin-left: 170px;
+}
+.pass{
+    margin-left: 118px;
+}
+.Form{
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(201, 6, 6, 0.1)); */
+     /* box-shadow: 0 10px 10px 0px rgb(155, 19, 19); */
+
+
+}
