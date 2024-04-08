@@ -2,16 +2,14 @@ import "./HomeDisigin.css";
 import Back from "../../../src/Components/assets/agriculture.png";
 import Button from "../../../src/Components/Button/Button";
 
-
-
-
 export default function HomePage() {
   return (
     <div className="container">
       <div className="grid">
         <div className="para">
           <h1 className="thish1">
-            Agriculture<br/>
+            Agriculture
+            <br />
             <span>System!</span>
           </h1>
           <p>
@@ -23,10 +21,14 @@ export default function HomePage() {
             agricultural needs, from tractors and harvesters to irrigation
             systems and beyond.
           </p>
-         
+
           <div className="buttoncontainer">
-            <Button buttonclass="signup" name="Signup" />
-            <Button buttonclass="signup" id="button" name="Login" />
+            <a href="/Signup">
+              <Button class="signup" name="Signup" />
+            </a>
+            <a href="/Signin">
+              <Button class="signup" id="button" name="Login" />
+            </a>
           </div>
         </div>
         <div className="photo">

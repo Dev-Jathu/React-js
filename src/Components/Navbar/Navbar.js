@@ -19,7 +19,7 @@ export default function Navbar() {
               <img src={Logo} />
             </div>
             <div>
-              <h1 class="logos"> Agri System</h1>
+              <h1 class="logos"> Thozan </h1>
             </div>
           </div>
           <div className="navadjust">

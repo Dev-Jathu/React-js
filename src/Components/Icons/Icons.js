@@ -24,12 +24,13 @@ import {
   
 
 
-} from "@fortawesome/free-solid-svg-icons";
+} 
+from "@fortawesome/free-solid-svg-icons";
 
-export default function Icons() {
+export default function Icons(props) {
   return (
     <div>
-      <FontAwesomeIcon icon={faMagnifyingGlass} />
+      <FontAwesomeIcon icon={props.name} />
     </div>
   );
 }
